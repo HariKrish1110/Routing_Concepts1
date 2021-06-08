@@ -4,13 +4,15 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { LoginComponent } from './login/login.component';
-import{Approute}from './app.routes';
+
+import{Approute,routingcomponents}from './app.routes';
 import {RouterModule}from '@angular/router';
+import { ContactComponent } from './contact/contact.component';
+
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,RouterModule.forRoot(Approute) ],
-  declarations: [ AppComponent, HelloComponent, LoginComponent ],
+  declarations: [ AppComponent, HelloComponent,routingcomponents, ContactComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
