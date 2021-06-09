@@ -1,4 +1,6 @@
-t{
-  
-  border: 10px;
+.center {
+  margin-left:100px;
+  margin-right: auto;
+  margin-top: 50px;
+   border: 10px solid rgb(72, 19, 218);
 }

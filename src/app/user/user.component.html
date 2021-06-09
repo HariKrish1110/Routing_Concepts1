@@ -1,4 +1,9 @@
 <h1>
 welcome
 </h1>
-<p><a routerLink="/">user</a></p>
+<h3>ProductList</h3>
+<form formGroup="userForm" (ngSubmit) = "onClickSubmit()">
+<input type="text" name="dal" formControlName="dal">
+<input type="text" name="sugar" formControlName="sugar">
+<input type="submit" name="Submit"  value="ORDER" >
+</form>

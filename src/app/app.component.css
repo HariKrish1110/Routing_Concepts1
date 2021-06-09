@@ -10,3 +10,19 @@ p {
     margin-top:15%;
 
 }
+.divv{
+  border: 1px solid ;
+  border-color: rgb(4, 15, 20);
+}
+a:link{
+  text-decoration: none;
+  
+}
+a:hover,a:active{
+  color:white;
+  background-color: green;
+}
+h2{
+  text-align: center;
+  background-color: green;
+}
