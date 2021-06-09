@@ -9,16 +9,11 @@ import { FormControl, FormGroup } from '@angular/forms';
 })
 export class UserComponent implements OnInit {
 
-userForm=new FormGroup({
-  dal:new FormControl(""),
-  sugar:new FormControl("")
-})
+
   constructor() { }
 
   ngOnInit() {
   }
-  onClickSubmit(){
-    alert(this.userForm.value);
-  }
+  
 
 }
