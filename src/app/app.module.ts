@@ -8,11 +8,12 @@ import { HelloComponent } from './hello.component';
 import{Approute,routingcomponents}from './app.routes';
 import {RouterModule}from '@angular/router';
 import { ContactComponent } from './contact/contact.component';
+import { OrderdetailsComponent } from './login/orderdetails/orderdetails.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,RouterModule.forRoot(Approute) ],
-  declarations: [ AppComponent, HelloComponent,routingcomponents, ContactComponent ],
+  declarations: [ AppComponent, HelloComponent,routingcomponents, ContactComponent, OrderdetailsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

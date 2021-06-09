@@ -3,6 +3,13 @@
 welcome
 </h1>
 <h3>ProductList</h3>
+<table><tr><td>items</td><td>qty</td></tr>
+  <tr><td>Dall</td><td>
+<input type="number" name="dal"[(ngModel)]="dal"></td></tr><tr><td>Sugar</td><td>
+<input type="number" name="sugar"></td></tr><tr><td></td><td>
+<input type="submit" name="Submit"  value="ORDER"  (click)="order()"></td></tr></table>
+<app-orderdetails [namee]="dal"></app-orderdetails>
+
 
 
 

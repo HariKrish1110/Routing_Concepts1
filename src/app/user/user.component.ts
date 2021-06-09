@@ -1,6 +1,7 @@
 import { group } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-user',
@@ -8,12 +9,14 @@ import { FormControl, FormGroup } from '@angular/forms';
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
+dal:number;
 
-
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit() {
   }
-  
+  order(){
+     this.router.navigate(['orderdetails']);
+  }
 
 }
